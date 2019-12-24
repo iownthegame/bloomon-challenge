@@ -5,4 +5,4 @@
 - paste input data to standard input
 - show output data at standard output
 - exit container: `exit`
-- stop container: `docker container stop my-bloomon`
+- stop and remove container: `docker stop my-bloomon && docker rm my-bloomon`
